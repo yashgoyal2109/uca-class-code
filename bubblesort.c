@@ -45,8 +45,8 @@ long long time_elapsed(int n)
 
 void test_simple_input()
 {
-  int input[] = {5, 3, 1, 9, 7};
-  int expected_output[] = {1, 3, 5, 7, 9};
+  int input[] = {5, 3, 4, 2, 1};
+  int expected_output[] = {1, 2, 3, 4, 5};
 
   bubble_sort(input, 5);
 
